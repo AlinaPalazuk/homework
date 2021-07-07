@@ -1,0 +1,6 @@
+TEXT STATISTIC
+Count of strings: 33,
+Count of symbols: 1395,
+Count of vowel: 422,
+Count of consonants: 667,
+Count of numbers: 2
