@@ -1,0 +1,33 @@
+Data Types
+datetime — Basic date and time types
+zoneinfo — IANA time zone support
+calendar — General calendar-related functions
+collections — Container datatypes
+collections.abc — Abstract Base Classes for Containers
+heapq — Heap queue algorithm
+bisect — Array bisection algorithm
+array — Efficient arrays of numeric values
+weakref — Weak references
+types — Dynamic type creation and names for built-in types
+copy — Shallow and deep copy operations
+pprint — Data pretty printer
+reprlib — Alternate repr() implementation
+enum — Support for enumerations
+graphlib — Functionality to operate with graph-like structures
+Generic Operating System Services
+os — Miscellaneous operating system interfaces
+io — Core tools for working with streams
+time — Time access and conversions
+argparse — Parser for command-line options, arguments and sub-commands
+getopt — C-style parser for command line options
+logging — Logging facility for Python
+logging.config — Logging configuration
+logging.handlers — Logging handlers
+getpass — Portable password input
+curses — Terminal handling for character-cell displays
+curses.textpad — Text input widget for curses programs
+curses.ascii — Utilities for ASCII characters
+curses.panel — A panel stack extension for curses
+platform — Access to underlying platform’s identifying data
+errno — Standard errno system symbols
+ctypes — A foreign function library for Python
