@@ -1,4 +1,4 @@
-Data Types
+1. Data Types
 datetime — Basic date and time types
 zoneinfo — IANA time zone support
 calendar — General calendar-related functions
@@ -14,7 +14,7 @@ pprint — Data pretty printer
 reprlib — Alternate repr() implementation
 enum — Support for enumerations
 graphlib — Functionality to operate with graph-like structures
-Generic Operating System Services
+2. Generic Operating System Services
 os — Miscellaneous operating system interfaces
 io — Core tools for working with streams
 time — Time access and conversions

@@ -1,7 +1,11 @@
-with open("file1.txt", "r") as file:
+"""Задание 1
+Дано два текстовых файла. Выяснить, совпадают ли их строки. 
+Если нет, то вывести несовпадающую строку из каждого файла."""
+
+with open("./lesson3-6/file1.txt", "r") as file:
     content1 = file.readlines()
 
-with open("file2.txt", "r") as file:
+with open("./lesson3-6/file2.txt", "r") as file:
     content2 = file.readlines()
 
 def find_variance(list1, list2):
