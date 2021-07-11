@@ -1,0 +1,31 @@
+3. Built-in types
+Truth Value Testing
+Boolean Operations — and, or, not
+Comparisons
+Numeric types — int, float, complex
+Iterator types
+Sequence types — list, tuple, range
+Text Sequence Type — str
+Binary Sequence types — bytes, bytearray, memoryview
+Set types — set, frozenset
+Mapping types — dict
+Context Manager types
+Generic Alias Type
+Other Built-in types
+Special Attributes
+1. Data types
+datetime — Basic date and time types
+zoneinfo — IANA time zone support
+calendar — General calendar-related functions
+collections — Container datatypes
+collections.abc — Abstract Base Classes for Containers
+heapq — Heap queue algorithm
+bisect — Array bisection algorithm
+array — Efficient arrays of numeric values
+weakref — Weak references
+types — Dynamic type creation and names for built-in types
+copy — Shallow and deep copy operations
+pprint — Data pretty printer
+reprlib — Alternate repr() implementation
+enum — Support for enumerations
+graphlib — Functionality to operate with graph-like structures

@@ -27,13 +27,15 @@ consonants = [
     'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 
     'q', 'r', 's', 't', 'v', 'w', 'x', 'z',
     ]
-count_numbers = string_statistic(content, numbers)
-count_vowels = string_statistic(content, vowels)
-count_consonants = string_statistic(content, consonants)
+count_numbers = string_statistic(content.lower(), numbers)
+count_vowels = string_statistic(content.lower(), vowels)
+count_consonants = string_statistic(content.lower(), consonants)
 
 w = open("./lesson3-6/text_statistic.txt", mode = "w")
 w.write(
-    f"TEXT STATISTIC\nCount of strings: {count_strings},\nCount of symbols: {count_symbols},\nCount of vowel: {count_vowels},\nCount of consonants: {count_consonants},\nCount of numbers: {count_numbers}"
+    f"TEXT STATISTIC\nCount of strings: {count_strings},\n\
+Count of symbols: {count_symbols},\nCount of vowel: {count_vowels},\n\
+Count of consonants: {count_consonants},\nCount of numbers: {count_numbers}"
     )
 
 w.close()
